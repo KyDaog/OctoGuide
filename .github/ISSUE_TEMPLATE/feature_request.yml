@@ -1,0 +1,10 @@
+name: Idea or feature request
+description: Suggest something new
+labels: ["idea"]
+body:
+  - type: textarea
+    attributes:
+      label: What would you like to see
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: Why it would help}

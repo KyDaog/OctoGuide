@@ -1,0 +1,17 @@
+name: Wrong or missing step in a guide
+description: An NPC is not where the marker is, a quest is missing, or a step is in the wrong order
+labels: ["guide"]
+body:
+  - type: input
+    attributes: {label: Guide name and step number, placeholder: "Darkshore (10-14), step 12"}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Faction, race, class and level, placeholder: "Alliance, Human Mage, level 12"}
+    validations: {required: true}
+  - type: textarea
+    attributes:
+      label: What is wrong
+      description: Say what the step told you and what really happened. If an NPC is somewhere else, stand there, type /og here, and paste the line.
+    validations: {required: true}
+  - type: input
+    attributes: {label: OctoGuide version, placeholder: "0.20.01"}

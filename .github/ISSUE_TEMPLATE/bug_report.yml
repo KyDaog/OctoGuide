@@ -1,0 +1,20 @@
+name: Bug report
+description: Something in OctoGuide does not work, or you got red error text
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+      description: Copy any red error text word for word.
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: What you expected}
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open /og guides ..."
+  - type: input
+    attributes: {label: OctoGuide version, placeholder: "0.20.01"}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Other UI addons, placeholder: "PandaUI Modern, pfQuest"}
