@@ -1,6 +1,6 @@
 # Guide library
 
-Every guide in OctoGuide 0.20.01. Level ranges are the levels each chapter is written for.
+Every guide in OctoGuide 0.20.02. Level ranges are the levels each chapter is written for.
 
 Open any of them in game with `/og guides`, or load one directly with `/og guide <name>`.
 
@@ -103,7 +103,7 @@ Zone chapters, including the OctoWoW custom zones.
 | Badlands (35-43) | 35-43 | 107 |
 | Dustwallow Marsh (35-43) | 35-43 | 173 |
 | Stranglethorn Vale (36-41) | 36-41 | 94 |
-| Swamp of Sorrows (36-44) | 36-44 | 89 |
+| Swamp of Sorrows (36-44) | 36-44 | 85 |
 | Gilneas (40-46) | 40-46 | 165 |
 | Tanaris (40-45) | 40-45 | 68 |
 | Feralas (41-48) | 41-48 | 149 |
@@ -150,7 +150,7 @@ Zone chapters, including the OctoWoW custom zones.
 | Badlands (35-43) | 35-43 | 96 |
 | Dustwallow Marsh (35-43) | 35-43 | 194 |
 | Stranglethorn Vale (36-41) | 36-41 | 95 |
-| Swamp of Sorrows (36-44) | 36-44 | 84 |
+| Swamp of Sorrows (36-44) | 36-44 | 80 |
 | Tanaris (40-45) | 40-45 | 90 |
 | Feralas (41-48) | 41-48 | 130 |
 | Stranglethorn Vale (41-45) | 41-45 | 93 |
@@ -314,7 +314,33 @@ Leveling guides for every profession.
 
 ## Class quests
 
-Mage quest lines.
+Quest lines for all nine classes.
+
+### Druid
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Druid - Night Elf (1-15) | 1-15 | 19 |
+| Druid - Tauren (1-15) | 1-15 | 19 |
+| Druid - Classic (10-30) | 10-30 | 98 |
+| Druid - Classic (40-60) | 40-61 | 79 |
+| Druid - Level 60 | 58-60 | 67 |
+
+### Hunter
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Hunter - Dwarf (1-15) | 1-15 | 25 |
+| Hunter - Gnome (1-15) | 1-15 | 17 |
+| Hunter - Goblin (1-15) | 1-15 | 24 |
+| Hunter - High Elf (1-15) | 1-15 | 23 |
+| Hunter - Human (1-15) | 1-15 | 16 |
+| Hunter - Night Elf (1-15) | 1-15 | 29 |
+| Hunter - Orc and Troll (1-15) | 1-15 | 27 |
+| Hunter - Tauren (1-15) | 1-15 | 27 |
+| Hunter - Undead (1-15) | 1-15 | 32 |
+| Hunter - Classic (40-60) | 40-61 | 29 |
+| Hunter - Level 60 | 58-60 | 65 |
 
 ### Mage
 
@@ -327,15 +353,98 @@ Mage quest lines.
 | Mage - Human (1-15) | 1-15 | 11 |
 | Mage - Orc and Troll (1-15) | 1-15 | 11 |
 | Mage - Undead (1-15) | 1-15 | 11 |
-| Mage - Alliance (15-30) | 15-30 | 23 |
-| Mage - Horde (15-30) | 15-30 | 31 |
-| Mage - Alliance (30-40) | 30-40 | 37 |
-| Mage - Horde (30-40) | 30-40 | 37 |
-| Mage - Alliance (40-60) | 40-60 | 23 |
-| Mage - Horde (40-60) | 40-60 | 23 |
+| Mage - Classic (15-30) | 15-30 | 55 |
+| Mage - Classic (30-40) | 30-40 | 75 |
+| Mage - Classic (40-60) | 40-60 | 47 |
 | Mage - Level 60: Azshara | 58-60 | 17 |
 | Mage - Level 60: Karazhan and Sets | 58-60 | 7 |
 | Mage - Level 60: Zul'Gurub | 58-60 | 19 |
+
+### Paladin
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Paladin - Dwarf (1-15) | 1-15 | 38 |
+| Paladin - High Elf (1-15) | 1-15 | 43 |
+| Paladin - Human (1-15) | 1-15 | 35 |
+| Paladin - Classic (15-30) | 15-30 | 35 |
+| Paladin - Classic (40-60) | 40-61 | 23 |
+| Paladin - Level 60 | 58-60 | 87 |
+
+### Priest
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Priest - Dwarf (1-15) | 1-15 | 32 |
+| Priest - High Elf (1-15) | 1-15 | 18 |
+| Priest - Human (1-15) | 1-15 | 32 |
+| Priest - Night Elf (1-15) | 1-15 | 30 |
+| Priest - Orc and Troll (1-15) | 1-15 | 23 |
+| Priest - Tauren (1-15) | 1-15 | 14 |
+| Priest - Undead (1-15) | 1-15 | 25 |
+| Priest - Classic (15-30) | 15-30 | 56 |
+| Priest - Classic (40-60) | 40-61 | 32 |
+| Priest - Level 60 | 58-60 | 66 |
+
+### Rogue
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Rogue - Dwarf (1-20) | 1-20 | 28 |
+| Rogue - Gnome (1-20) | 1-20 | 28 |
+| Rogue - Goblin (1-15) | 1-15 | 8 |
+| Rogue - High Elf (1-15) | 1-15 | 12 |
+| Rogue - Human (1-20) | 1-20 | 33 |
+| Rogue - Night Elf (1-20) | 1-20 | 24 |
+| Rogue - Orc and Troll (1-15) | 1-15 | 25 |
+| Rogue - Undead (1-15) | 1-15 | 31 |
+| Rogue - Classic (15-30) | 15-30 | 70 |
+| Rogue - Classic (40-60) | 40-61 | 31 |
+| Rogue - Level 60 | 58-60 | 53 |
+
+### Shaman
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Shaman - Orc and Troll (1-15) | 1-15 | 34 |
+| Shaman - Tauren (1-15) | 1-15 | 37 |
+| Shaman - Classic (10-30) | 10-30 | 69 |
+| Shaman - Classic (30-40) | 30-40 | 8 |
+| Shaman - Classic (40-60) | 40-61 | 69 |
+| Shaman - Level 60 | 58-60 | 86 |
+
+### Warlock
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Warlock - Dwarf (1-15) | 1-15 | 7 |
+| Warlock - Gnome (1-15) | 1-15 | 7 |
+| Warlock - Goblin (1-15) | 1-15 | 18 |
+| Warlock - Human (1-15) | 1-15 | 17 |
+| Warlock - Orc and Troll (1-15) | 1-15 | 21 |
+| Warlock - Undead (1-15) | 1-15 | 20 |
+| Warlock - Classic (10-30) | 10-30 | 65 |
+| Warlock - Classic (30-40) | 30-40 | 158 |
+| Warlock - Classic (40-60) | 40-61 | 69 |
+| Warlock - Level 60 | 58-60 | 112 |
+
+### Warrior
+
+| Guide | Levels | Steps |
+|---|---:|---:|
+| Warrior - Dwarf (1-15) | 1-15 | 18 |
+| Warrior - Gnome (1-15) | 1-15 | 18 |
+| Warrior - Goblin (1-15) | 1-15 | 13 |
+| Warrior - High Elf (1-15) | 1-15 | 25 |
+| Warrior - Human (1-15) | 1-15 | 4 |
+| Warrior - Night Elf (1-15) | 1-15 | 17 |
+| Warrior - Orc and Troll (1-15) | 1-15 | 6 |
+| Warrior - Tauren (1-15) | 1-15 | 7 |
+| Warrior - Undead (1-15) | 1-15 | 20 |
+| Warrior - Classic (10-30) | 10-30 | 110 |
+| Warrior - Classic (30-40) | 30-40 | 45 |
+| Warrior - Classic (40-60) | 40-61 | 29 |
+| Warrior - Level 60 | 58-60 | 54 |
 
 ## Pets and mounts
 

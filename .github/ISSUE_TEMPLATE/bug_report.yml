@@ -14,7 +14,7 @@ body:
       label: Steps to reproduce
       placeholder: "1. Open /og guides ..."
   - type: input
-    attributes: {label: OctoGuide version, placeholder: "0.20.01"}
+    attributes: {label: OctoGuide version, placeholder: "0.20.02"}
     validations: {required: true}
   - type: input
     attributes: {label: Other UI addons, placeholder: "PandaUI Modern, pfQuest"}

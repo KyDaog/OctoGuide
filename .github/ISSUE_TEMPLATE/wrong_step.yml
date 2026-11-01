@@ -14,4 +14,4 @@ body:
       description: Say what the step told you and what really happened. If an NPC is somewhere else, stand there, type /og here, and paste the line.
     validations: {required: true}
   - type: input
-    attributes: {label: OctoGuide version, placeholder: "0.20.01"}
+    attributes: {label: OctoGuide version, placeholder: "0.20.02"}

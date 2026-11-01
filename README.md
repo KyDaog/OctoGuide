@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KyDaog/OctoGuide/releases/latest"><img alt="Version" src="https://img.shields.io/badge/version-0.20.01%20beta-ff851f?style=for-the-badge"></a>
+  <a href="https://github.com/KyDaog/OctoGuide/releases/latest"><img alt="Version" src="https://img.shields.io/badge/version-0.20.02%20beta-ff851f?style=for-the-badge"></a>
   <img alt="WoW 1.12.x" src="https://img.shields.io/badge/WoW-1.12.x-1a1a1a?style=for-the-badge">
   <img alt="pfUI and PandaUI" src="https://img.shields.io/badge/works%20with-pfUI%20%7C%20PandaUI-1a1a1a?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-All%20rights%20reserved-1a1a1a?style=for-the-badge">
@@ -29,7 +29,7 @@
 > **Seeing two arrows?** OctoGuide has its own arrow. To switch off pfQuest's arrow, type **`/pfquest arrow`** in chat. Type it again to bring it back.
 
 > [!NOTE]
-> **Beta 0.20.01.** This is the first public release. Everything here works, but some guides have been play-tested more than others. See [Known limitations](#known-limitations) and please [report anything that looks wrong](https://github.com/KyDaog/OctoGuide/issues/new/choose).
+> **Beta 0.20.02.** This is the first public release. Everything here works, but some guides have been play-tested more than others. See [Known limitations](#known-limitations) and please [report anything that looks wrong](https://github.com/KyDaog/OctoGuide/issues/new/choose).
 
 ![OctoGuide viewer](docs/images/viewer.png)
 
@@ -61,7 +61,7 @@ Every guide is built from the quest database, so quest givers, objectives and ch
 ## Features
 
 ### Guides
-- **174 guides** covering **2,361 quests**: all ten race starter zones, Classic 1-60 for **both Alliance and Horde**, dungeons and raids, the professions, mage class quests and a pets and mounts guide. See the [guide library](#guide-library).
+- **243 guides** covering **2,826 quests**: all ten race starter zones, Classic 1-60 for **both Alliance and Horde**, dungeons and raids, the professions, class quest guides for all nine classes and a pets and mounts guide. See the [guide library](#guide-library).
 - **Zone folders with level ranges**, such as *Darkshore (10-20)*, so you always know where to be at your level.
 - **Chapters that chain together.** When a zone is finished the next one opens by itself, up to the next level range.
 - **Smart route.** No guide picked? OctoGuide builds an automatic route for you.
@@ -117,7 +117,7 @@ Every guide is built from the quest database, so quest givers, objectives and ch
 
 1. Install **pfQuest** and the **pfQuest-octo-plus** data pack. The data pack folder must be named `pfQuest-octo-plus`.
    Do not use the launcher's *pfQuest [TurtleWoW DB]* button, and keep `pfQuest-octo` and `pfQuest-turtle` disabled.
-2. Download **`OctoGuide-0.20.01.zip`** from the [latest release](https://github.com/KyDaog/OctoGuide/releases/latest).
+2. Download **`OctoGuide-0.20.02.zip`** from the [latest release](https://github.com/KyDaog/OctoGuide/releases/latest).
 3. Unzip it and copy the **`OctoGuide`** folder into your game folder: `Interface\AddOns\`.
    You should end up with `Interface\AddOns\OctoGuide\OctoGuide.toc`.
 4. **Fully restart the game client.** `/reload` is not enough the first time, because OctoGuide has new files.
@@ -221,7 +221,7 @@ Type **`/oghelp`** in game to open the same list in a window. Square brackets me
 | **Dungeons** | 35 | 13-60 | Quests and loot for the dungeons |
 | **Raids** | 11 | 60-60 | Quests and loot for the raids |
 | **Professions** | 13 | 1-60 | Leveling guides for every profession |
-| **Class quests** | 16 | 1-60 | Mage quest lines |
+| **Class quests** | 85 | 1-61 | Quest lines for all nine classes |
 | **Pets and mounts** | 1 | 18-60 | Pet and mount guide |
 
 The complete list of every zone, dungeon, raid and profession guide is in **[docs/GUIDES.md](docs/GUIDES.md)**.
@@ -306,7 +306,7 @@ Yes. OctoGuide's windows are built to match both, and it adds its own tab to the
 - **Some steps have no arrow** because the database has no position for the objective. They have a note instead.
 - **Patrolling NPCs** are marked at their usual spot.
 - A few quests that you must hand in far from their zone are left out to keep the route short.
-- **Placeholder folders.** The guide menu already shows folders for Dailies, Reputations, Titles and Achievements, and for the Druid, Hunter, Paladin, Priest, Rogue, Shaman, Warlock and Warrior class quests. Those are empty for now. Mage class quests are the first ones written.
+- **Placeholder folders.** The guide menu already shows folders for Dailies, Reputations, Titles and Achievements. Those are empty for now. Class quest guides are generated from the quest database and have had less play-testing than the main leveling guides, so please report anything that looks wrong.
 
 ## Get help
 
